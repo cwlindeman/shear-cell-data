@@ -372,17 +372,16 @@ def findTrajectories(foldername, cycleEndList=[], buckleFlag=False, particles=Tr
 
 # UNCOMMENT ONE LINE TO LOOK AT CORRESPONDING DATA
 #fileNames = ["24-06-02-a", "24-06-02-b", "24-06-02-c", "24-06-03-f", "24-06-03-g"] # no training, SB readout
-fileNames = ["24-05-28-a", "24-05-28-b", "24-05-28-c", "24-05-28-d", "24-06-03-h"] # SB training (small), SB readout
+#fileNames = ["24-05-28-a", "24-05-28-b", "24-05-28-c", "24-05-28-d", "24-06-03-h"] # SB training (small), SB readout
 #fileNames = ["24-05-28-e", "24-05-28-f", "24-05-28-g", "24-05-28-h", "24-06-03-i"] # SB training (large), SB readout
 #fileNames = ["24-06-06-a", "24-06-06-b", "24-06-07-a", "24-06-07-b", "24-06-07-e"] # SA training (small), SA readout
 #fileNames = ["24-06-06-c", "24-06-06-d", "24-06-07-c", "24-06-07-d", "24-06-07-f"] # SA training (large), SA readout
 #fileNames = ["24-05-29-d", "24-05-29-e", "24-05-29-f", "24-06-03-j", "24-06-03-k"] # SA training, SB readout
+fileNames = ["25-03-10-a", "25-03-10-b", "25-03-10-c", "25-03-10-d", "25-03-10-e", "25-03-11-a", "25-03-11-b"] # alternating training, mixed readout
 
-# Will run into trouble with these last three sets because some experiments were done with stroboscopic-only measurements.
+# Will run into trouble with these last set because some experiments were done with stroboscopic-only measurements.
 # Can look at deltas only, or else comment out some of the experiments to see gammas.
-#fileNames = ["24-05-29-g", "24-05-29-h", "24-05-29-i", "24-05-29-j", "24-06-03-l", "24-06-04-a", "24-06-04-b", "24-06-04-c"] # alternating SB/SA training, SB readout
-#fileNames = ["24-05-29-l", "24-06-02-e", "24-06-02-f", "24-06-03-a", "24-06-03-b"] # mixed SB and SA training, SB readout
-#fileNames = [ "24-05-29-m", "24-05-29-n", "24-05-29-o", "24-06-02-d", "24-06-03-c"] # mixed SB and SA training, mixed readout
+#fileNames = [ "24-05-29-m", "24-05-29-n", "24-05-29-o", "24-06-02-d", "24-06-03-c"] # mixed training, mixed readout
 
 # GET STRAINS
 gammas = []
